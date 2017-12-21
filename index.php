@@ -12,7 +12,7 @@
 </section>
 
 <!-- 投稿フォーム -->
-<?php require("/view/post.php"); ?>
+
 <!-- 投稿された動画群を表示 -->
 
 
