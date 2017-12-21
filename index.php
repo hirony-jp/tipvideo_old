@@ -45,7 +45,7 @@
             <div class="card-body">
                 <h4 class="card-title">Special title treatment</h4>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/D5t_sk6AUs4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/D5t_sk6AUs4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
