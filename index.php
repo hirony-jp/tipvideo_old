@@ -40,7 +40,9 @@
 </div>
 <!-- 投稿された動画群を表示 -->
 <div class="container">
-    <?php require("view/list.php"); ?>
+    <div class="row">
+        <?php require("view/list.php"); ?>
+    </div>
 </div>
 
 
