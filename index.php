@@ -4,10 +4,10 @@
     <div class="container">
     <h1 class="jumbotron-heading">Videoman</h1>
     <p class="lead text-muted">動画を投稿して投げ銭をもらおう！お気に入りの動画に投げ銭しよう！</p>
-    <!-- <p>
-        <a href="#" class="btn btn-primary">Main call to action</a>
-        <a href="#" class="btn btn-secondary">Secondary action</a>
-    </p> -->
+    <p>
+        <a href="#" class="btn btn-primary">ヘルプ</a>
+        <a href="#" class="btn btn-primary">募金</a>
+    </p>
     </div>
 </section>
 
