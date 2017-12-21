@@ -1,3 +1,5 @@
+<?php require("header.php"); ?>
+
 <div class="card">
     <div class="card-block">
         <form action="" method="post">
@@ -24,3 +26,5 @@
         </form>
     </div>
 </div>
+
+<?php require("footer.php"); ?>
