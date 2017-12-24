@@ -1,15 +1,13 @@
         <footer>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <?php print('2017 - '.date("Y").' &copy; @_hirony'); ?>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <p>
+                MONA : MRSHEXzabMsQRndgbiifXJq849TGd4BHa9<br>
+                ZNY : ZvWdyn9FfQevXbWNNFAeFb4TWkW8z6rJhq<br>
+                XEM : NAGJG3-QFWYZ3-7LMI7I-QPSGQN-YADGSJ-ZGJRD2-DIYA:6c261c9250cabcc8<br>
+                XRP : plz tipbot<br>
+                BCH : 1MAyyUQnujL1UXHh48eRq69S9Wb3e7A4Rt<br>
+                BTC : 1PWxTQDqk4cDXZHcex8bAQ7inwLRYKZyBQ
+            </p>
+            <?php print('2017 - '.date("Y").' &copy; <a href="https://twitter.com/_hirony">@_hirony</a>'); ?>
         </footer>
 
         <!-- jQuery first, then Tether, then Bootstrap JS. -->

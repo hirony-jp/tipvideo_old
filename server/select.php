@@ -17,13 +17,7 @@
         $videodescription = $row["videodescription"];
         $div_class_card = '<div class="col-lg-4 col-sm-6 portfolio-item" style="display:-webkit-box;display:-webkit-flex; display:-ms-flexbox; display: flex;"><div class="card"><div class="card-body">';
         $div_end = '</div>';
-        $videodata = '  <h4 class="card-title">'.$videotitle.'</h4>
-                    <p class="card-text">'.$videodescription.'</p>
-                    '.$videourl.'
-                    <br>
-                    <p>postid   : '.$postid.'</p>
-                    <a href="#" class="btn btn-primary">tip</a>
-                ';
+        $videodata = $videourl.'<h4 class="card-title">'.$videotitle.'</h4><p class="card-text">'.$videodescription.'</p><a href="#" class="btn btn-primary btn-block">tip</a>';
         print($div_class_card);
         print($videodata);
         print($div_end);

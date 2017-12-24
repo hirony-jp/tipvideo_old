@@ -2,4 +2,32 @@ footer {
     background-color: #555555;
     color: #ffffff;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+.card {
+    margin-bottom:20px;
+}
+/* .card-title {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+} */
+
+.card-text {
+    word-wrap: break-word;
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; */
+}
+.helpimg {
+    border: 5px #666666 solid;
+}
+
+/* .tipinput {
+    padding-left: 10px;
+    padding-right: 10px;
+} */
