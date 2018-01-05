@@ -18,10 +18,10 @@
                 <input type="text" name="vtitle"class="form-control" placeholder="Video Title" aria-describedby="basic-addon2" maxlength="20" required>
                 </div>
                 <br>
-                動画のURLを入力してください。<br>
+                動画の埋め込みコードを入力してください。<br>
                 <div class="input-group">
                 <span class="input-group-addon" id="basic-addon3"><i class="fa fa-youtube" aria-hidden="true"></i></span>
-                <input type="text" name="vurl" class="form-control" placeholder="Video URL" aria-describedby="basic-addon3" required>
+                <input type="text" name="vurl" class="form-control" placeholder="Embed URL" aria-describedby="basic-addon3" required>
                 </div>
                 <br>
                 動画説明文を入力してください。(200文字くらいまで)<br>

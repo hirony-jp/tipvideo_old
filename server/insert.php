@@ -2,7 +2,7 @@
     require("database.php");
 
     // SQLの生成
-    $insert_sql = 'insert into Posts(postid, postdate, twitterid, videotitle, videourl, videodescription) value(0, now(), ?, ?, ?, ?);';
+    $insert_sql = 'insert into Posts(postid, postdate, twitterid, videotitle, videourl, videodescription, tipcount) value(0, now(), ?, ?, ?, ?, 0);';
 
     // POSTされたデータを取得する。
     $tw_id = $_POST["twid"];
@@ -13,10 +13,14 @@
     $v_title = htmlspecialchars($v_title, ENT_QUOTES);
     $v_url = htmlspecialchars($v_url, ENT_QUOTES);
     $v_description = htmlspecialchars($v_description, ENT_QUOTES);
-    $cut = 19;
+    $cut = 32;
+    $cut_back = -19;
     $addiframetext = '<iframe width="100%"';
+    $addiframetext_back = '></iframe>';
+
     $replace = substr( $v_url, $cut, strlen($v_url)-$cut);
-    $new_v_url = $addiframetext.$replace;
+    $replace = substr( $replace, 0, $cut_back);
+    $new_v_url = $addiframetext.$replace.$addiframetext_back;
 
     // テーブルにデータを挿入する。
     $stmt = $pdo -> prepare($insert_sql);

@@ -31,7 +31,7 @@
             <a class="nav-link" href="/view/help.php">ヘルプ</a>
         </li> -->
         <li class="nav-item">
-            <a class="nav-link" href="/view/about.php">あばうと</a>
+            <a class="nav-link" href="/view/about.php">作った人</a>
         </li>
         </ul>
     </div>

@@ -1,6 +1,19 @@
 <?php require("../header.php"); ?>
 
 <?php
+    if (isset($_POST['twid']) == false) {
+        header("Location: post.php");
+    }
+    if (isset($_POST['vtitle']) == false) {
+        header("Location: post.php");
+    }
+    if (isset($_POST['vurl']) == false) {
+        header("Location: post.php");
+    }
+    if (isset($_POST['vdesc']) == false) {
+        header("Location: post.php");
+    }
+    
     $tw_id = $_POST["twid"];
     $v_title = $_POST["vtitle"];
     $v_url = $_POST["vurl"];
