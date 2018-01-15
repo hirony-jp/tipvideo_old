@@ -107,7 +107,10 @@
                 //                 </center>
                 //                 ';
                 $div_end = '</div>';
-                $videodata = $videourl.'<div class="card-block"><h4 class="card-title">'.$videotitle.'</h4>
+                $videodata = $videourl.'<div class="card-block">
+                                        <a class="btn btn-primary btn-block" href="https://twitter.com/intent/tweet?text=%e3%80%90tipvideo%e3%80%91'.$videotitle.'%20http%3a%2f%2fwww%2etip%2dvideo%2enet%2fview%2ftweet%2ephp%3fpostid%3d'.$postid.'%20%23tipvideo" role="button"><i class="fa fa-twitter" aria-hidden="true"></i> この動画をTwitterで共有する</a>
+                                        <p> </p>
+                                        <h4 class="card-title">'.$videotitle.'</h4>
                                         <a href="https://twitter.com/'.$twitterid.'">@'.$twitterid.'</a><br>
                                         <p class="card-text">id:'.$postid.'<br>date:'.$postdate.'</p>
                                         <p class="card-text">'.$videodescription.'</p>
