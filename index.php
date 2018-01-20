@@ -24,7 +24,7 @@
 <section class="jumbotron text-center">
     <div class="container">
     <h1 class="jumbotron-heading">tipVideo</h1>
-    <p class="lead text-muted">動画を投稿しろ！ゼニなげるぞ！<br>tipmonaやzenyhimeを使って投げゼニをします。</p>
+    <p class="lead text-muted">youtubeの埋め込みコードを投稿して投げ銭をもらおう！<br>tipmonaやzenyhimeを使って投げ銭をします。</p>
     <p>
         <a href="view/about.php" class="btn btn-primary">あばうと</a>
         <a href="view/post.php" class="btn btn-primary">投稿する</a>
