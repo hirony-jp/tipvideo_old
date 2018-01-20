@@ -9,7 +9,7 @@
                 自分のTwitter IDを入力してください。<br>
                 <div class="input-group">
                 <span class="input-group-addon" id="basic-addon1">@</span>
-                <input type="text" name="twid" class="form-control" placeholder="Twitter ID" aria-describedby="basic-addon1" maxlength="50" required>
+                <input type="text" name="twid" class="form-control" placeholder="Twitter ID" aria-describedby="basic-addon1" maxlength="50" pattern="^(?!.*@).*$" title="@マークは入力しなくていいよ" required>
                 </div>
                 <br>
                 動画タイトルを入力してください。(20文字くらいまで)<br>
