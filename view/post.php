@@ -21,8 +21,8 @@
                 動画の埋め込みコードをコピーアンドペーストしてください。<br>
                 <div class="input-group">
                 <span class="input-group-addon" id="basic-addon3"><i class="fa fa-youtube" aria-hidden="true"></i></span>
-                <!-- <input type="text" name="vurl" class="form-control" placeholder="Embed URL" aria-describedby="basic-addon3" pattern="^^.*https://www.youtube.com/embed.*" title="youtubeの埋め込みコードっぽくないんですが。。。" required> -->
-                <textarea type="text" name="vurl" class="form-control"  cols="100%" rows="10" placeholder="Embed URL" aria-describedby="basic-addon3" maxlength="200" required></textarea>
+                <input type="text" name="vurl" class="form-control" placeholder="Embed URL" aria-describedby="basic-addon3" pattern="^.*https://www.youtube.com/embed.*" title="本当にyoutubeの埋め込みコードですか？" required>
+                <!-- <textarea type="text" name="vurl" class="form-control"  cols="100%" rows="10" placeholder="Embed URL" aria-describedby="basic-addon3" maxlength="200" required></textarea> -->
                 </div>
                 <br>
                 動画説明文を入力してください。(200文字くらいまで)<br>
