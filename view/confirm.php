@@ -45,7 +45,8 @@
                 動画URL<br>
                 <div class="input-group">
                 <span class="input-group-addon" id="basic-addon3"><i class="fa fa-youtube" aria-hidden="true"></i></span>
-                <input type="text" name="vurl" class="form-control" value="<?php echo $v_url ?>" placeholder="Input Your Video URL" aria-describedby="basic-addon3" readonly>
+                <!-- <input type="text" name="vurl" class="form-control" value="" placeholder="Input Your Video URL" aria-describedby="basic-addon3" readonly> -->
+                <textarea type="text" name="vurl" class="form-control" cols="100%" rows="10" placeholder="url" aria-describedby="basic-addon3" readonly><?php echo $v_url ?></textarea>
                 </div>
                 <br>
                 動画説明文<br>
