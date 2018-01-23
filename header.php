@@ -16,23 +16,31 @@
   <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-inverse navbar-toggleable-md navbar-light bg-faded bg-primary">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="/index.php">tipVideo</a>
+    <nav class="navbar navbar-inverse navbar-toggleable-md navbar-light bg-faded bg-primary">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/index.php">tipVideo</a>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="/view/post.php">投稿する</a>
-        </li>
-        <!-- <li class="nav-item">
-            <a class="nav-link" href="/view/help.php">ヘルプ</a>
-        </li> -->
-        <li class="nav-item">
-            <a class="nav-link" href="/view/about.php">作った人</a>
-        </li>
-        </ul>
-    </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/view/post.php">投稿する</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="/view/help.php">ヘルプ</a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link" href="/view/about.php">作った人</a>
+            </li>
+            </ul>
+            <form class="form-inline" method="post" action="server/serch.php">
+            <div class="input-group">
+                <input class="form-control input-serch-nav" type="text" placeholder="Search">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </span>
+            </div>
+          </form>
+        </div>
     </nav>

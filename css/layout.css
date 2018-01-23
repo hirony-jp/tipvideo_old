@@ -31,3 +31,7 @@ footer {
     padding-left: 10px;
     padding-right: 10px;
 } */
+
+.input-serch-nav {
+    border-color: #cccccc; /* bootstrap4 info color */
+}
