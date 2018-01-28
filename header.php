@@ -34,9 +34,9 @@
                 <a class="nav-link" href="/view/about.php">作った人</a>
             </li>
             </ul>
-            <form class="form-inline" method="post" action="server/serch.php">
+            <form class="form-inline" method="post" action="/view/serch.php">
             <div class="input-group">
-                <input class="form-control input-serch-nav" type="text" placeholder="Search">
+                <input class="form-control input-serch-nav" type="text" name="serch" placeholder="Search">
                 <span class="input-group-btn">
                     <button class="btn btn-secondary" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                 </span>
