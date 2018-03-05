@@ -17,19 +17,19 @@
 
 
     // sql文
-    $update_sql = 'update Posts set tipcount = ?;';
-    $select_sql = 'select tipcount from Posts;';
-    $count = 0;
+    // $update_sql = 'update Posts set tipcount = ?;';
+    // $select_sql = 'select tipcount from Posts;';
+    // $count = 0;
 
     // tipcountをupdateする。
-    $stmt = $pdo->query($select_sql);
-    $row = $stmt -> fetch(PDO::FETCH_ASSOC);
-    $old_count = $row["tipcount"];
-    $count = (int)$old_count + 1;
-    $stmt = $pdo -> prepare($update_sql);
-    $stmt->bindValue(1, $count, PDO::PARAM_INT);
+    // $stmt = $pdo->query($select_sql);
+    // $row = $stmt -> fetch(PDO::FETCH_ASSOC);
+    // $old_count = $row["tipcount"];
+    // $count = (int)$old_count + 1;
+    // $stmt = $pdo -> prepare($update_sql);
+    // $stmt->bindValue(1, $count, PDO::PARAM_INT);
 
-    $stmt->execute();
+    // $stmt->execute();
 
     header("Location: $tweeturl");
 ?>

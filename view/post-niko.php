@@ -4,11 +4,11 @@
 <div class="container">
     <div class="card">
         <div class="card-block">
-        <h2><strong>Youtube投稿フォーム</strong></h2>
-        <a class="btn btn-primary btn-block" href="post-niko.php" role="button">ニコ動投稿フォームはこちら</a>
+        <h2><strong>ニコ動投稿フォーム</strong></h2>
+        <a class="btn btn-primary btn-block" href="post.php" role="button">Youtube投稿フォームはこちら</a>
         <a class="btn btn-info btn-block" href="help.php" role="button">どうやって投稿したらいいの？</a>
         <hr>
-            <form action="confirm.php" method="post">
+            <form action="confirm-niko.php" method="post">
                 自分のTwitter IDを入力してください。<br>
                 <div class="input-group">
                 <span class="input-group-addon" id="basic-addon1">@</span>
@@ -21,10 +21,10 @@
                 <input type="text" name="vtitle"class="form-control" placeholder="Video Title" aria-describedby="basic-addon2" maxlength="50" required>
                 </div>
                 <br>
-                動画の埋め込みコードをコピーアンドペーストしてください。<br>
+                動画ID(sm00000000)を入力してください。<br>
                 <div class="input-group">
-                <span class="input-group-addon" id="basic-addon3"><i class="fa fa-youtube" aria-hidden="true"></i></span>
-                <input type="text" name="vurl" class="form-control" placeholder="Embed URL" aria-describedby="basic-addon3" pattern="^.*https://www.youtube.com/embed.*" title="URLは[www.youtube.com/embed]が含まれてますか？" required>
+                <span class="input-group-addon" id="basic-addon3"><i class="fa fa-film" aria-hidden="true"></i></span>
+                <input type="text" name="vurl" class="form-control" placeholder="sm00000000" aria-describedby="basic-addon3" pattern="^sm[0-9]+$" title="sm00000000の形式で入力してください。" maxlength="10" required>
                 <!-- <textarea type="text" name="vurl" class="form-control"  cols="100%" rows="10" placeholder="Embed URL" aria-describedby="basic-addon3" maxlength="200" required></textarea> -->
                 </div>
                 <br>

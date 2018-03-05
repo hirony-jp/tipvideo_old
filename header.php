@@ -23,14 +23,6 @@
     gtag('config', 'UA-113188685-1');
     </script>
 
-    <!-- Google Adsense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-1596202342418621",
-        enable_page_level_ads: true
-    });
-    </script>
   </head>
   <body>
 
